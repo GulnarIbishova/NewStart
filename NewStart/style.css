@@ -20,4 +20,45 @@ header nav a {
 }
 header nav a:hover {
   color: #dede30;
+}
+
+#nice .box {
+  margin: 70px 0;
+  text-align: center;
+  position: relative;
+  top: 120px;
+  z-index: 1;
+}
+#nice .box h1 {
+  font-size: 40px;
+  color: white;
+}
+#nice .box h2 {
+  margin: 15px;
+  font-size: 120px;
+  font-size: bold;
+  color: white;
+  font-weight: 3px;
+}
+#nice .box .btn {
+  position: relative;
+  right: 35px;
+  margin: 20px;
+  padding: 18px 35px;
+  background-color: #ffc800;
+  border-radius: 5px;
+  font-size: 20px;
+}
+#nice .box .btn h3 {
+  font-size: 21px;
+  color: white;
+}
+#nice .imgbox img {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 5px;
+  right: 0px;
 }/*# sourceMappingURL=style.css.map */
