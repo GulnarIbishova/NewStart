@@ -61,4 +61,52 @@ header nav a:hover {
   position: absolute;
   top: 5px;
   right: 0px;
+}
+
+#services {
+  padding: 90px 0 90px 0;
+  margin: 90px 0px 90px 0;
+}
+#services .textcenter h1 {
+  padding: 30px;
+  position: relative;
+  top: 0px;
+  bottom: 125px;
+  font-size: 50px;
+  font-weight: 700;
+  font-size: bold;
+  color: #110909;
+}
+#services .textcenter h3 {
+  margin: 10px;
+  font-size: 20px;
+  color: #110909;
+}
+#services .box {
+  margin: 40px;
+}
+#services .box .minibox {
+  position: relative;
+  left: 85px;
+  right: 25px;
+  height: 150px;
+  width: 150px;
+  border-radius: 180px;
+  background-color: #ffc800;
+}
+#services .box .minibox li .icon {
+  color: white;
+  font-size: 60px;
+}
+#services .textbox {
+  padding: 10px;
+}
+#services .textbox h2 {
+  font-size: 29px;
+  font-weight: 700;
+  font-size: bold;
+}
+#services .textbox h4 {
+  padding: 16px;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
