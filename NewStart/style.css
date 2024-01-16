@@ -74,8 +74,10 @@ header nav a:hover {
   top: 200px;
   bottom: 625px;
 }
+#services .textcenter {
+  padding: 50px;
+}
 #services .textcenter h1 {
-  padding: 30px;
   position: relative;
   top: 0px;
   bottom: 125px;
@@ -85,12 +87,12 @@ header nav a:hover {
   color: #110909;
 }
 #services .textcenter h3 {
-  margin: 10px;
+  margin: 20px;
   font-size: 20px;
   color: #110909;
 }
 #services .box {
-  margin: 40px;
+  margin: 10px;
 }
 #services .box .minibox {
   position: relative;
@@ -116,4 +118,49 @@ header nav a:hover {
 #services .textbox h4 {
   padding: 16px;
   font-size: 20px;
+}
+
+#portfolio {
+  padding: 90px;
+}
+#portfolio .textcenter {
+  padding: 50px;
+}
+#portfolio .textcenter h1 {
+  font-size: 55px;
+  font-weight: 700;
+  font-size: bold;
+  color: #110909;
+}
+#portfolio .textcenter h3 {
+  margin: 20px;
+  font-size: 20px;
+  color: #110909;
+}
+#portfolio .mainbox li .icon {
+  font-size: 60px;
+  position: relative;
+  right: 245px;
+  top: 120px;
+  transition: 1s;
+}
+#portfolio .mainbox li .icon:hover {
+  position: relative;
+  right: 245px;
+  top: 120px;
+  color: white;
+  background-color: rgba(244, 226, 27, 0.8117647059);
+}
+#portfolio .textbox {
+  padding: 20px;
+}
+#portfolio .textbox h4 {
+  font-size: 30px;
+  font-weight: 700;
+  font-size: bold;
+}
+#portfolio .textbox h5 {
+  margin: 5px;
+  font-size: 18px;
+  color: rgba(106, 105, 105, 0.7098039216);
 }/*# sourceMappingURL=style.css.map */
