@@ -167,10 +167,10 @@ header nav a:hover {
 }
 
 #about {
-  padding: 90px;
+  padding: 30px;
 }
 #about .textcenter {
-  padding: 50px;
+  padding: 30px;
 }
 #about .textcenter h1 {
   font-size: 50px;
@@ -182,4 +182,14 @@ header nav a:hover {
   margin: 20px;
   font-size: 20px;
   color: #110909;
+}
+#about .box .textbox h2 {
+  font-size: 50px;
+  color: #110909;
+}
+#about .box .textbox h4 {
+  font-size: 28px;
+  color: #110909;
+  font-weight: 700;
+  font-size: bold;
 }/*# sourceMappingURL=style.css.map */
