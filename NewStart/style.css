@@ -183,25 +183,32 @@ header nav a:hover {
   font-size: 20px;
   color: #110909;
 }
-#about .box {
-  padding: 30px;
+#about .textbox {
+  position: relative;
+  right: 125px;
 }
-#about .box .textbox h2 {
-  font-size: 30px;
+#about .textbox h2 {
+  font-size: 50px;
   color: #110909;
+  font-weight: 700;
 }
-#about .box .textbox h4 {
-  font-size: 18px;
+#about .textbox h4 {
+  margin: 10px;
+  font-size: 25px;
   color: #110909;
   font-weight: 700;
   font-size: bold;
 }
-#about .box .imgbox {
+#about .textbox p {
+  font-size: 20px;
+  color: #a5a3a3;
+}
+#about .imgbox {
   width: 150px;
-  height: 150px;
-  border: 5px solid #db4747;
-  border-radius: 250px;
+  margin-top: 20px;
+  border: 5px solid #ac1c1c;
+  border-radius: 70px;
   position: relative;
-  bottom: 150px;
-  left: 600px;
+  bottom: 185px;
+  left: 560px;
 }/*# sourceMappingURL=style.css.map */
