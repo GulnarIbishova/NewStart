@@ -205,10 +205,13 @@ header nav a:hover {
 }
 #about .imgbox {
   width: 150px;
-  margin-top: 20px;
-  border: 5px solid #ac1c1c;
-  border-radius: 70px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 100px;
+  border: 5px solid #bab4b4;
+}
+#about .gln {
   position: relative;
-  bottom: 185px;
-  left: 560px;
+  left: 530px;
+  bottom: 155px;
 }/*# sourceMappingURL=style.css.map */
