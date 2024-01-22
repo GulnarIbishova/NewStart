@@ -173,11 +173,8 @@ header nav a:hover {
   color: rgba(106, 105, 105, 0.7098039216);
 }
 
-#about {
-  padding: 30px;
-}
 #about .textcenter {
-  padding: 30px;
+  padding: 20px;
 }
 #about .textcenter h1 {
   font-size: 50px;
@@ -190,34 +187,44 @@ header nav a:hover {
   font-size: 20px;
   color: #110909;
 }
-#about .textbox {
+#about .box {
   position: relative;
-  right: 125px;
+  left: 140px;
 }
-#about .textbox h2 {
-  font-size: 50px;
+#about .box .textbox .minibox h2 {
+  font-size: 27px;
   color: #110909;
   font-weight: 700;
 }
-#about .textbox h4 {
-  margin: 10px;
-  font-size: 25px;
+#about .box .textbox .minibox h4 {
+  margin: 15px 0;
+  font-size: 35px;
   color: #110909;
   font-weight: 700;
   font-size: bold;
 }
-#about .textbox p {
+#about .box .textbox .minibox p {
   font-size: 20px;
   color: #a5a3a3;
 }
-#about .imgbox {
-  width: 150px;
-  margin: 10px;
+#about .box .imgbox {
+  width: 680px;
+  margin: 50px;
   border-radius: 100px;
-  border: 5px solid #bab4b4;
+  border: 5px solid #3fb1d7;
 }
-#about .gln {
+#about .one {
   position: relative;
-  left: 530px;
-  bottom: 155px;
+  left: 510px;
+  width: 680px;
+}
+#about .two {
+  position: relative;
+  left: 110px;
+  width: 680px;
+}
+#about .three {
+  position: relative;
+  left: 510px;
+  width: 680px;
 }/*# sourceMappingURL=style.css.map */
