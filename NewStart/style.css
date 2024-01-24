@@ -99,7 +99,7 @@ header .btn .icon {
 #services .textcenter h3 {
   margin: 20px;
   font-size: 20px;
-  color: #110909;
+  color: rgba(106, 105, 105, 0.7098039216);
 }
 #services .box {
   display: flex;
@@ -127,11 +127,9 @@ header .btn .icon {
 #services .textbox h4 {
   padding: 16px;
   font-size: 20px;
+  color: rgba(106, 105, 105, 0.7098039216);
 }
 
-#portfolio {
-  padding: 90px;
-}
 #portfolio .textcenter {
   padding: 50px;
 }
@@ -153,13 +151,17 @@ header .btn .icon {
   top: 120px;
   transition: 1.5s;
 }
-#portfolio .mainbox li .icon:hover {
+#portfolio .mainbox li:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   position: relative;
   right: 245px;
   top: 120px;
   transition: 1.5s;
-  cursor: pointer;
   color: white;
+  cursor: pointer;
   background-color: rgba(244, 226, 27, 0.8117647059);
 }
 #portfolio .textbox {
@@ -190,10 +192,6 @@ header .btn .icon {
   font-size: 20px;
   color: #110909;
 }
-#about .box {
-  position: relative;
-  left: 140px;
-}
 #about .box .textbox .minibox h2 {
   font-size: 27px;
   color: #110909;
@@ -211,23 +209,13 @@ header .btn .icon {
   color: #a5a3a3;
 }
 #about .box .imgbox {
-  width: 680px;
+  width: 100%;
   margin: 50px;
   border-radius: 100px;
-  border: 5px solid #3fb1d7;
+  border: 5px solid rgba(179, 176, 176, 0.7098039216);
 }
 #about .one {
-  position: relative;
-  left: 510px;
-  width: 680px;
-}
-#about .two {
-  position: relative;
-  left: 110px;
-  width: 680px;
-}
-#about .three {
-  position: relative;
-  left: 510px;
-  width: 680px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
