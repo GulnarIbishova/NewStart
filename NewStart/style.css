@@ -15,13 +15,18 @@ section {
 }
 
 header {
-  position: relative;
+  position: fixed;
   z-index: 1;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: flex-end;
   padding: 20px 0;
+  width: 100%;
   background-color: #212529;
 }
 header .imgbox {
-  width: 200px;
+  height: 100%;
 }
 header nav a {
   font-size: 20px;
@@ -32,13 +37,28 @@ header nav a {
 header nav a:hover {
   color: #dede30;
 }
+header .btn {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  border-radius: 2px;
+  background-color: #253132;
+  color: #c4baba;
+  border: 5px solid #c4baba;
+  cursor: pointer;
+}
+header .btn h1 {
+  margin: 5px;
+  font-size: 13px;
+  color: #c4baba;
+}
+header .btn .icon {
+  font-size: 15px;
+}
 
 #nice .box {
   margin: 70px 0;
   text-align: center;
-  position: relative;
-  top: 120px;
-  z-index: 1;
 }
 #nice .box h1 {
   font-size: 40px;
@@ -52,8 +72,6 @@ header nav a:hover {
   font-weight: 3px;
 }
 #nice .box .btn {
-  position: relative;
-  right: 35px;
   margin: 20px;
   padding: 18px 35px;
   background-color: #ffc800;
@@ -64,30 +82,15 @@ header nav a:hover {
   font-size: 21px;
   color: white;
 }
-#nice .imgbox {
-  width: 100%;
-  height: 100%;
-  background-position: center center;
+#nice .box .imgbox {
+  height: 400px;
   background-size: cover;
-  position: absolute;
-  top: 5px;
-  right: 0px;
 }
 
-#services {
-  padding: 90px 0 90px 0;
-  margin: 90px 0 90px 0;
-  position: relative;
-  top: 200px;
-  bottom: 625px;
-}
 #services .textcenter {
-  padding: 50px;
+  padding: 30px;
 }
 #services .textcenter h1 {
-  position: relative;
-  top: 0px;
-  bottom: 125px;
   font-size: 50px;
   font-weight: 700;
   font-size: bold;
@@ -99,11 +102,11 @@ header nav a:hover {
   color: #110909;
 }
 #services .box {
+  display: flex;
+  justify-content: space-around;
   margin: 10px;
 }
 #services .box .minibox {
-  position: relative;
-  left: 115px;
   height: 150px;
   width: 150px;
   border-radius: 180px;
