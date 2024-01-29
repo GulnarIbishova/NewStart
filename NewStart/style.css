@@ -176,14 +176,8 @@ header .btn .icon {
   color: rgba(106, 105, 105, 0.7098039216);
 }
 
-#about {
-  height: 100hv;
-}
-#about .textcenter {
-  padding: 20px;
-}
 #about .textcenter h1 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
   font-size: bold;
   color: #110909;
@@ -193,30 +187,60 @@ header .btn .icon {
   font-size: 20px;
   color: #110909;
 }
+#about .box {
+  display: flex;
+  align-items: center;
+}
 #about .box .textbox {
-  width: 150px;
+  margin: 30px;
+  width: 400px;
+  text-align: end;
 }
-#about .box .textbox h2 {
+#about .box .textbox h2, #about .box .textbox h4 {
   font-size: 27px;
-  color: #110909;
+  line-height: 1.3;
   font-weight: 700;
-}
-#about .box .textbox h4 {
-  margin: 15px 0;
-  font-size: 35px;
-  color: #110909;
-  font-weight: 700;
-  font-size: bold;
 }
 #about .box .textbox p {
   font-size: 20px;
   color: #a5a3a3;
+  line-height: 1.4;
 }
 #about .box .imgbox {
   width: 150px;
   height: 150px;
   border-radius: 100px;
   border: 5px solid rgba(179, 176, 176, 0.7098039216);
+}
+#about .right {
+  display: flex;
+  justify-content: center;
+}
+#about .right .textbox {
+  text-align: start;
+}
+#about .yellow {
+  display: flex;
+  justify-content: center;
+}
+#about .mainbox {
+  display: flex;
+  justify-content: end;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: 5px solid rgba(179, 176, 176, 0.7098039216);
+  background-color: #fae608;
+}
+#about .mainbox .minibox {
+  text-align: center;
+  padding: 0 40px;
+}
+#about .mainbox .minibox h2 {
+  font-size: 20px;
+  font-size: 700;
+  line-height: 1.2;
+  color: white;
 }
 
 #our {
@@ -279,6 +303,21 @@ header .btn .icon {
   padding: 40px;
   margin: 30px;
   text-align: center;
-  color: #252424;
   font-size: 25px;
+}
+
+#companies {
+  padding: 60px 0;
+}
+#companies .box {
+  padding: 0 50px;
+}
+#companies .box .imgbox {
+  width: 120px;
+}
+#companies .box .microsoft {
+  width: 200px;
+}
+#companies .box .ibm {
+  width: 100px;
 }/*# sourceMappingURL=style.css.map */
