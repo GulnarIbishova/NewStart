@@ -56,35 +56,35 @@ header .btn .icon {
   font-size: 15px;
 }
 
-#nice .box {
+#nice {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+}
+#nice .box .textbox {
   margin: 70px 0;
   text-align: center;
 }
-#nice .box h1 {
+#nice .box .textbox h1 {
   font-size: 40px;
   color: white;
 }
-#nice .box h2 {
+#nice .box .textbox h2 {
   margin: 15px;
   font-size: 120px;
   font-size: bold;
   color: white;
   font-weight: 3px;
 }
-#nice .box .btn {
+#nice .box .textbox .btn {
   margin: 20px;
   padding: 18px 35px;
   background-color: #ffc800;
   border-radius: 5px;
   font-size: 20px;
-}
-#nice .box .btn h3 {
   font-size: 21px;
   color: white;
-}
-#nice .box .imgbox {
-  height: 400px;
-  background-size: cover;
 }
 
 #services .textcenter {
@@ -152,17 +152,15 @@ header .btn .icon {
   transition: 1.5s;
 }
 #portfolio .mainbox li:hover {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
-  position: relative;
-  right: 245px;
-  top: 120px;
   transition: 1.5s;
   color: white;
   cursor: pointer;
   background-color: rgba(244, 226, 27, 0.8117647059);
+  overflow: hidden;
+  position: relative;
+  right: 245px;
+  top: 120px;
 }
 #portfolio .textbox {
   padding: 20px;
@@ -178,6 +176,9 @@ header .btn .icon {
   color: rgba(106, 105, 105, 0.7098039216);
 }
 
+#about {
+  height: 100hv;
+}
 #about .textcenter {
   padding: 20px;
 }
@@ -192,30 +193,95 @@ header .btn .icon {
   font-size: 20px;
   color: #110909;
 }
-#about .box .textbox .minibox h2 {
+#about .box .textbox {
+  width: 150px;
+}
+#about .box .textbox h2 {
   font-size: 27px;
   color: #110909;
   font-weight: 700;
 }
-#about .box .textbox .minibox h4 {
+#about .box .textbox h4 {
   margin: 15px 0;
   font-size: 35px;
   color: #110909;
   font-weight: 700;
   font-size: bold;
 }
-#about .box .textbox .minibox p {
+#about .box .textbox p {
   font-size: 20px;
   color: #a5a3a3;
 }
 #about .box .imgbox {
-  width: 100%;
-  margin: 50px;
+  width: 150px;
+  height: 150px;
   border-radius: 100px;
   border: 5px solid rgba(179, 176, 176, 0.7098039216);
 }
-#about .one {
+
+#our {
+  background-color: rgba(192, 192, 192, 0.1254901961);
+}
+#our .textbox {
+  padding: 20px;
+}
+#our .textbox h1 {
+  font-size: 70px;
+  font-weight: 700;
+  font-size: bold;
+  color: #110909;
+}
+#our .textbox h3 {
+  margin: 20px;
+  font-size: 20px;
+  color: #110909;
+}
+#our .box .textbox {
+  text-align: center;
+  margin: 5px 0;
+}
+#our .box h2 {
+  font-weight: 300;
+  font-size: 38px;
+}
+#our .box h4 {
+  font-size: 18px;
+  padding: 5px;
+}
+#our .box ul {
+  display: flex;
+  justify-content: center;
+}
+#our .box ul li {
+  margin: 10px;
+}
+#our .box ul li .icon {
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #141313;
+  border-radius: 50%;
+  padding: 20px;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+#our .box .imgbox {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 8px solid rgba(135, 129, 129, 0.1921568627);
+  width: 220px;
+}
+#our .textbox {
+  margin: 30px;
+}
+#our .textbox p {
+  margin: 40px;
+  padding: 30px;
+  text-align: center;
+  color: #252424;
+  font-size: 25px;
 }/*# sourceMappingURL=style.css.map */
