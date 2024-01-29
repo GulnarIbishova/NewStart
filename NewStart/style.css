@@ -275,12 +275,9 @@ header .btn .icon {
   border: 8px solid rgba(135, 129, 129, 0.1921568627);
   width: 220px;
 }
-#our .textbox {
-  margin: 30px;
-}
 #our .textbox p {
-  margin: 40px;
-  padding: 30px;
+  padding: 40px;
+  margin: 30px;
   text-align: center;
   color: #252424;
   font-size: 25px;
