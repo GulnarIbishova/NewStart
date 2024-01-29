@@ -1,16 +1,20 @@
 header
     position: fixed
+    left: 0
+    right: 0
     z-index: 1
     display: flex
-    flex-wrap: wrap-reverse
     justify-content: space-between
-    align-items: flex-end
-    padding: 20px 0
-    width: 100%
+    align-items: center
+    background-color: #212529
+    padding: 10px 0
+    height: 70px
     background-color: #212529
     .imgbox
-        height: 100%
+        width: 140px
+        margin-left: 120px
     nav
+        margin-right: 120px
         a
             font-size: 20px
             color: #ffff
@@ -20,18 +24,22 @@ header
                 color: #dede30
     .btn
         display: flex
-        justify-content: space-between
+        align-items: center
+        display: none
         font-size: 25px
         border-radius: 2px
         background-color: #253132
-        color: #c4baba
-        border: 5px solid #c4baba
+        color: #ffff
+        border: 1px solid #c4baba
+        padding: 2px
         cursor: pointer
+        opacity: 0.6
         h1
-            margin: 5px
+            cursor: pointer
             font-size: 13px
-            color: #c4baba
+            font-weight: 700
         .icon
-            font-size: 15px
+            margin-left: 7px
+            cursor: pointer
 
 @media screen and ( min-width: 992px )
