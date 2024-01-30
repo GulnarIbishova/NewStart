@@ -183,6 +183,11 @@ header .btn .icon {
   font-size: 20px;
   color: rgba(106, 105, 105, 0.7098039216);
 }
+@media screen and (max-width: 768px) {
+  #services .textbox {
+    padding: 0 0 50px;
+  }
+}
 
 #portfolio .textbox {
   padding-top: 20px;
