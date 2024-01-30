@@ -35,10 +35,9 @@ header nav {
   margin-right: 120px;
 }
 header nav a {
-  font-size: 20px;
-  color: white;
-  margin-right: 30px;
-  transition: 1s;
+  font-size: 19px;
+  margin: 0 20px;
+  cursor: pointer;
 }
 header nav a:hover {
   color: #dede30;
@@ -47,18 +46,14 @@ header .btn {
   display: flex;
   align-items: center;
   display: none;
-  font-size: 25px;
-  border-radius: 2px;
-  background-color: #253132;
   color: white;
-  border: 1px solid #c4baba;
+  border: 1px solid white;
   padding: 2px;
-  cursor: pointer;
   opacity: 0.6;
 }
 header .btn h1 {
   cursor: pointer;
-  font-size: 13px;
+  font-size: 17px;
   font-weight: 700;
 }
 header .btn .icon {
@@ -306,6 +301,82 @@ header .btn .icon {
   font-size: 700;
   line-height: 1.2;
   color: white;
+}
+@media screen and (max-width: 992px) {
+  #about .box {
+    margin: 0 0 100px 0;
+    align-items: flex-start;
+  }
+  #about .box .textbox {
+    width: 190px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #about .text-center h1 {
+    font-size: 55px;
+  }
+  #about .text-center h3 {
+    font-size: 18px;
+  }
+  #about .box {
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    margin: 0 0 70px 0;
+  }
+  #about .box .textbox {
+    width: 400px;
+    text-align: start;
+  }
+  #about .box .imgbox {
+    width: 140px;
+    height: auto;
+    margin: 0;
+  }
+  #about .right {
+    margin: 0 0 70px 0;
+    flex-direction: row;
+  }
+  #about .right .textbox {
+    text-align: start;
+  }
+  #about .yellow {
+    justify-content: flex-start;
+  }
+  #about .mainbox {
+    width: 140px;
+    height: 140px;
+  }
+  #about .mainbox .minibox {
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #about .text-center h1 {
+    font-size: 50px;
+  }
+  #about .text-center h3 {
+    font-size: 18px;
+  }
+  #about .box .imgbox {
+    width: 140px;
+    height: auto;
+  }
+  #about .box .textbox h2, #about .box .textbox h4 {
+    font-size: 25px;
+  }
+  #about .box .textbox p {
+    font-size: 18px;
+  }
+  #about .mainbox {
+    width: 100px;
+    height: 100px;
+  }
+  #about .mainbox .minibox {
+    padding: 0 15px;
+  }
+  #about .mainbox .minibox h2 {
+    font-size: 18px;
+  }
 }
 
 #our {
