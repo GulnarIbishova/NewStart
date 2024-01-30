@@ -4,23 +4,34 @@
     background-size: cover
     height: 100%
     .box
+        height: 700px
+        display: flex
+        align-items: center
+        justify-content: center
         .textbox
-            margin: 70px 0
-            text-align: center
             h1
+                margin-bottom: 20px
                 font-size: 40px
                 color: #ffff
             h2
-                margin: 15px
-                font-size: 120px
-                font-size: bold
+                margin: 0 0 50px 0
+                font-size: 90px
                 color: #ffff
-                font-weight: 3px
+                font-weight: 700
             .btn
-                margin: 20px
-                padding: 18px 35px
+                padding: 18px 40px
                 background-color: #ffc800
-                border-radius: 5px
-                font-size: 20px
-                font-size: 21px
+                font-size: 22px
+                font-weight: 700
                 color: #ffff
+                h4
+                    cursor: pointer
+                &:hover
+                    background-color: #c28d07
+    @media screen and ( max-width: 576px )
+        .box
+            .textbox
+                h1
+                    font-size: 35px
+                h2
+                    font-size: 70px

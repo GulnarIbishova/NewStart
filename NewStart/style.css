@@ -65,6 +65,41 @@ header .btn .icon {
   margin-left: 7px;
   cursor: pointer;
 }
+@media screen and (min-width: 576px) {
+  header .menu {
+    height: 70px;
+  }
+  header .menu .btn {
+    margin-right: 10px;
+    padding: 6px 10px;
+  }
+  header .menu .imgbox {
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header .menu nav {
+    display: none;
+  }
+  header .menu .btn {
+    display: flex;
+    margin-right: 30px;
+  }
+  header .menu .imgbox {
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  header .menu nav {
+    margin-right: 55px;
+  }
+  header .menu nav a {
+    margin: 0 10px;
+  }
+  header .menu .imgbox {
+    margin-left: 40px;
+  }
+}
 
 #nice {
   background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
@@ -72,29 +107,43 @@ header .btn .icon {
   background-size: cover;
   height: 100%;
 }
-#nice .box .textbox {
-  margin: 70px 0;
-  text-align: center;
+#nice .box {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #nice .box .textbox h1 {
+  margin-bottom: 20px;
   font-size: 40px;
   color: white;
 }
 #nice .box .textbox h2 {
-  margin: 15px;
-  font-size: 120px;
-  font-size: bold;
+  margin: 0 0 50px 0;
+  font-size: 90px;
   color: white;
-  font-weight: 3px;
+  font-weight: 700;
 }
 #nice .box .textbox .btn {
-  margin: 20px;
-  padding: 18px 35px;
+  padding: 18px 40px;
   background-color: #ffc800;
-  border-radius: 5px;
-  font-size: 20px;
-  font-size: 21px;
+  font-size: 22px;
+  font-weight: 700;
   color: white;
+}
+#nice .box .textbox .btn h4 {
+  cursor: pointer;
+}
+#nice .box .textbox .btn:hover {
+  background-color: #c28d07;
+}
+@media screen and (max-width: 576px) {
+  #nice .box .textbox h1 {
+    font-size: 35px;
+  }
+  #nice .box .textbox h2 {
+    font-size: 70px;
+  }
 }
 
 #services .textcenter {
