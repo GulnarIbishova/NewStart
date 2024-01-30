@@ -457,6 +457,11 @@ header .btn .icon {
 #companies .box .ibm {
   width: 100px;
 }
+@media screen and (max-width: 576px) {
+  #companies .box .imgbox {
+    margin-top: 50px;
+  }
+}
 
 #contact {
   background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
