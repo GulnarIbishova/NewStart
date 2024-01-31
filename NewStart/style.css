@@ -261,45 +261,46 @@ header .btn .icon {
   }
 }
 
-#about .textcenter h1 {
+#about .text-center {
+  margin-bottom: 55px;
+}
+#about .text-center h1 {
   font-size: 60px;
   font-weight: 700;
-  font-size: bold;
-  color: #110909;
+  margin-bottom: 10px;
 }
-#about .textcenter h3 {
-  margin: 20px;
+#about .text-center h3 {
   font-size: 20px;
-  color: #110909;
+  color: #828080;
 }
 #about .box {
   display: flex;
   align-items: center;
+  margin: 0 0 100px 100px;
 }
 #about .box .textbox {
-  margin: 30px;
   width: 400px;
+  margin: 0 20px;
   text-align: end;
 }
 #about .box .textbox h2, #about .box .textbox h4 {
-  font-size: 27px;
-  line-height: 1.3;
+  font-size: 30px;
   font-weight: 700;
+  line-height: 1.3;
 }
 #about .box .textbox p {
-  font-size: 20px;
-  color: #a5a3a3;
+  font-size: 19px;
+  color: #828080;
   line-height: 1.4;
 }
 #about .box .imgbox {
-  width: 150px;
-  height: 150px;
-  border-radius: 100px;
-  border: 5px solid rgba(179, 176, 176, 0.7098039216);
+  border-radius: 180px;
+  border: 8px solid #e9ecef;
+  overflow: hidden;
 }
 #about .right {
-  display: flex;
-  justify-content: center;
+  justify-content: end;
+  margin: 0 100px 100px 0;
 }
 #about .right .textbox {
   text-align: start;
@@ -308,24 +309,22 @@ header .btn .icon {
   display: flex;
   justify-content: center;
 }
-#about .mainbox {
-  display: flex;
-  justify-content: end;
-  width: 150px;
-  height: 150px;
-  border-radius: 100px;
-  border: 5px solid rgba(179, 176, 176, 0.7098039216);
-  background-color: #fae608;
+#about .story {
+  width: 200px;
+  height: 200px;
+  background-color: #ffc800;
+  border-radius: 180px;
+  border: 8px solid #e9ecef;
 }
-#about .mainbox .minibox {
+#about .story .minibox {
   text-align: center;
   padding: 0 40px;
 }
-#about .mainbox .minibox h2 {
-  font-size: 20px;
-  font-size: 700;
-  line-height: 1.2;
+#about .story .minibox h2 {
   color: white;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.2;
 }
 @media screen and (max-width: 992px) {
   #about .box {
@@ -367,11 +366,11 @@ header .btn .icon {
   #about .yellow {
     justify-content: flex-start;
   }
-  #about .mainbox {
+  #about .yellow .story {
     width: 140px;
     height: 140px;
   }
-  #about .mainbox .minibox {
+  #about .yellow .story .minibox {
     padding: 0 30px;
   }
 }
@@ -392,14 +391,14 @@ header .btn .icon {
   #about .box .textbox p {
     font-size: 18px;
   }
-  #about .mainbox {
+  #about .yellow .story {
     width: 100px;
     height: 100px;
   }
-  #about .mainbox .minibox {
+  #about .yellow .story .minibox {
     padding: 0 15px;
   }
-  #about .mainbox .minibox h2 {
+  #about .yellow .story .minibox h2 {
     font-size: 18px;
   }
 }

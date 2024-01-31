@@ -1,59 +1,56 @@
 #about
-    .textcenter
+
+    .text-center
+        margin-bottom: 55px
         h1
             font-size: 60px
             font-weight: 700
-            font-size: bold
-            color: #110909
+            margin-bottom: 10px
         h3
-            margin: 20px
             font-size: 20px
-            color: #110909
+            color: #828080
     .box
         display: flex
         align-items: center
+        margin: 0 0 100px 100px
         .textbox
-            margin: 30px
             width: 400px
+            margin: 0 20px
             text-align: end
             h2,h4
-                font-size: 27px
-                line-height: 1.3
+                font-size: 30px
                 font-weight: 700
-
+                line-height: 1.3
             p
-                font-size: 20px
-                color: #a5a3a3
+                font-size: 19px
+                color: #828080
                 line-height: 1.4
         .imgbox
-            width: 150px
-            height: 150px
-            border-radius: 100px
-            border: 5px solid #b3b0b0b5
+            border-radius: 180px
+            border: 8px solid #e9ecef
+            overflow: hidden
     .right
-        display: flex
-        justify-content: center
+        justify-content: end
+        margin: 0 100px 100px 0
         .textbox
             text-align: start
     .yellow
         display: flex
         justify-content: center
-    .mainbox
-        display: flex
-        justify-content: end
-        width: 150px
-        height: 150px
-        border-radius: 100px
-        border: 5px solid #b3b0b0b5
-        background-color: #fae608
+    .story
+        width: 200px
+        height: 200px
+        background-color: #ffc800
+        border-radius: 180px
+        border: 8px solid #e9ecef
         .minibox
             text-align: center
             padding: 0 40px
             h2
-                font-size: 20px
-                font-size: 700
-                line-height: 1.2
                 color: #ffff
+                font-size: 35px
+                font-weight: 700
+                line-height: 1.2
     @media screen and ( max-width: 992px )
         .box
             margin: 0 0 100px 0
@@ -85,11 +82,13 @@
                 text-align: start
         .yellow
             justify-content: flex-start
-        .mainbox
-            width: 140px
-            height: 140px
-            .minibox
-                padding: 0 30px
+            .story
+                width: 140px
+                height: 140px
+                .minibox
+                    padding: 0 30px
+                    h2
+                        font-size: 30px
 
     @media screen and ( max-width: 576px )
         .text-center
@@ -107,10 +106,10 @@
                 p
                     font-size: 18px
         .yellow
-        .mainbox
-            width: 100px
-            height: 100px
-            .minibox
-                padding: 0 15px
-                h2
-                    font-size: 18px
+            .story
+                width: 100px
+                height: 100px
+                .minibox
+                    padding: 0 15px
+                    h2
+                        font-size: 18px
