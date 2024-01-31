@@ -188,35 +188,36 @@ header .menu nav a:hover {
   }
 }
 
+#portfolio {
+  background-color: rgba(172, 173, 175, 0.0862745098);
+}
 #portfolio .textbox {
-  padding-top: 20px;
+  padding-top: 40px;
   text-align: center;
 }
 #portfolio .textbox h1 {
+  margin: 20px;
   font-size: 55px;
   font-weight: 700;
-  font-size: bold;
-  color: #110909;
 }
 #portfolio .textbox h3 {
-  margin: 20px;
-  font-size: 20px;
-  color: #110909;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+#portfolio .textbox h2 {
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 13px;
 }
 #portfolio .textbox h4 {
-  font-size: 30px;
-  font-weight: 700;
-  font-size: bold;
-}
-#portfolio .textbox h5 {
-  margin: 5px;
-  font-size: 18px;
-  color: rgba(106, 105, 105, 0.7098039216);
+  font-size: 20px;
+  color: #838489;
 }
 #portfolio .box {
+  margin-bottom: 30px;
   background-color: white;
   padding-bottom: 20px;
-  text-align: center;
 }
 #portfolio .box .imgbox {
   position: relative;
@@ -226,8 +227,8 @@ header .menu nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   font-size: 60px;
+  color: white;
   position: absolute;
   top: 0;
   bottom: 0;
