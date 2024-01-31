@@ -491,9 +491,9 @@ header .menu nav a:hover {
 }
 
 #contact {
-  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
+  background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+  background-color: #212529;
   background-position: center center;
-  background-size: cover;
   height: 100%;
 }
 #contact .box {
