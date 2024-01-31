@@ -373,6 +373,9 @@ header .btn .icon {
   #about .yellow .story .minibox {
     padding: 0 30px;
   }
+  #about .yellow .story .minibox h2 {
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 576px) {
   #about .text-center h1 {
