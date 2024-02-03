@@ -182,7 +182,7 @@ header .menu nav a:hover {
   padding: 15px 0;
 }
 
-@media (max-width: 999px) {
+@media screen and (max-width: 992px) {
   h4 {
     margin-bottom: 25px;
   }
