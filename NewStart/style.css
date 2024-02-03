@@ -478,6 +478,9 @@ header .menu nav a:hover {
   margin: 40px 0 50px;
 }
 @media screen and (max-width: 576px) {
+  #our .textbox h1 {
+    font-size: 80px;
+  }
   #our .textbox p {
     font-size: 16px;
   }
