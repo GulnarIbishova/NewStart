@@ -141,54 +141,52 @@ header .menu nav a:hover {
   }
 }
 
+#services {
+  padding: 90px 0;
+}
 #services .textcenter {
-  padding: 30px;
+  text-align: center;
 }
 #services .textcenter h1 {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 700;
-  font-size: bold;
-  color: #110909;
+  padding-bottom: 15px;
 }
 #services .textcenter h3 {
-  margin: 20px;
+  color: #6a6a6a;
+  padding-bottom: 55px;
   font-size: 20px;
-  color: rgba(106, 105, 105, 0.7098039216);
+  line-height: 1.3;
 }
-#services .box {
+#services .box .icon {
   display: flex;
-  justify-content: space-around;
-  margin: 10px;
-}
-#services .box .minibox {
-  height: 150px;
-  width: 150px;
-  border-radius: 180px;
+  justify-content: center;
+  border-radius: 50%;
   background-color: #ffc800;
-}
-#services .box .minibox li .icon {
+  padding: 28px 25px;
+  cursor: pointer;
+  width: 120px;
+  height: 120px;
+  font-size: 55px;
   color: white;
-  font-size: 60px;
-}
-#services .textbox {
-  padding: 10px;
 }
 #services .textbox h2 {
-  font-size: 29px;
+  padding: 10px;
+  font-size: 30px;
   font-weight: 700;
-  font-size: bold;
 }
 #services .textbox h4 {
-  padding: 16px;
   font-size: 20px;
-  color: rgba(106, 105, 105, 0.7098039216);
-}
-@media screen and (max-width: 768px) {
-  #services .textbox {
-    padding: 0 0 50px;
-  }
+  color: #6a6a6a;
+  line-height: 1.4;
+  padding: 15px 0;
 }
 
+@media (max-width: 999px) {
+  h4 {
+    margin-bottom: 25px;
+  }
+}
 #portfolio {
   background-color: rgba(172, 173, 175, 0.0862745098);
 }
