@@ -1,74 +1,65 @@
 #our
-    background-color: #c0c0c020
+    padding: 90px 0
+    background-color: #f6f6f6
     .textbox
-        padding: 10px
-        h1
-            font-size: 70px
-            font-weight: 700
-            font-size: bold
-            color: #110909
-        h3
-            margin: 10px
-            font-size: 20px
-            color: #110909
-        h2
-            font-weight: 300
-            font-size: 38px
-        h4
-            font-size: 18px
-            padding: 5px
-    .box
         text-align: center
-        margin: 15px
+        h1
+            font-size: 45px
+            font-weight: 700
+            padding: 20px 0
+        h3
+            color: #969696
+            font-size: 18px
+            padding-bottom: 60px
+        h2
+            font-size: 30px
+            font-weight: 700
+            padding: 10px 0 10px
+        h4
+            color: #969696
+            font-size: 18px
+            padding-bottom: 10px
+
+        p
+            font-size: 18px
+            color: #969696
+            line-height: 30px
+            padding: 50px 230px 10px
+    .box
         .imgbox
             width: 220px
-            border-radius: 50%
+            border-radius: 100%
             border: 8px solid #87818131
+            overflow: hidden
         .textbox
             text-align: center
+            margin: 15px 0
         ul
             display: flex
             justify-content: center
             li
-                margin: 10px
+                margin: 0 10px
                 .icon
                     display: flex
                     justify-content: center
                     align-items: center
-                    cursor: pointer
-                    background-color: #141313
+                    font-size: 16px
+                    width: 40px
+                    height: 40px
+                    border-radius: 40px
+                    background-color: #1f1e1e
                     color: #ffff
-                    border-radius: 50%
-                    padding: 20px
-                    width: 10px
-                    height: 10px
                     cursor: pointer
-    .textbox
-        p
-            text-align: center
-            font-size: 18px
-            color: #6f7783
-            line-height: 1.5
-            margin: 40px 0 50px
+                    &:hover
+                        background-color: #424649
+                        transition: 0.5s
+                    i
+                        cursor: pointer
 
-    @media screen and ( max-width: 576px)
-        .textbox
-            h1
-                font-size: 80px
-            p
-                font-size: 16px
-
-    @media screen and ( max-width: 768px  )
-        .textbox
-            h3
-                font-size: 16px
-            p
-                padding: 0
+    @media ( max-width: 992px )
         .box
-            ul
-                margin-bottom: 40px
-
-    @media screen and ( max-width: 992px )
+            .imgbox
+                margin-top: 25px
         .textbox
             p
-                font-size: 18px
+                padding: 50px 0 0

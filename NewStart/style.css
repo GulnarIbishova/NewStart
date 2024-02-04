@@ -415,91 +415,80 @@ header .menu nav a:hover {
 }
 
 #our {
-  background-color: rgba(192, 192, 192, 0.1254901961);
+  padding: 90px 0;
+  background-color: #f6f6f6;
 }
 #our .textbox {
-  padding: 10px;
+  text-align: center;
 }
 #our .textbox h1 {
-  font-size: 70px;
+  font-size: 45px;
   font-weight: 700;
-  font-size: bold;
-  color: #110909;
+  padding: 20px 0;
 }
 #our .textbox h3 {
-  margin: 10px;
-  font-size: 20px;
-  color: #110909;
+  color: #969696;
+  font-size: 18px;
+  padding-bottom: 60px;
 }
 #our .textbox h2 {
-  font-weight: 300;
-  font-size: 38px;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px 0 10px;
 }
 #our .textbox h4 {
+  color: #969696;
   font-size: 18px;
-  padding: 5px;
+  padding-bottom: 10px;
 }
-#our .box {
-  text-align: center;
-  margin: 15px;
+#our .textbox p {
+  font-size: 18px;
+  color: #969696;
+  line-height: 30px;
+  padding: 50px 230px 10px;
 }
 #our .box .imgbox {
   width: 220px;
-  border-radius: 50%;
+  border-radius: 100%;
   border: 8px solid rgba(135, 129, 129, 0.1921568627);
+  overflow: hidden;
 }
 #our .box .textbox {
   text-align: center;
+  margin: 15px 0;
 }
 #our .box ul {
   display: flex;
   justify-content: center;
 }
 #our .box ul li {
-  margin: 10px;
+  margin: 0 10px;
 }
 #our .box ul li .icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
-  background-color: #141313;
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #1f1e1e;
   color: white;
-  border-radius: 50%;
-  padding: 20px;
-  width: 10px;
-  height: 10px;
   cursor: pointer;
 }
-#our .textbox p {
-  text-align: center;
-  font-size: 18px;
-  color: #6f7783;
-  line-height: 1.5;
-  margin: 40px 0 50px;
+#our .box ul li .icon:hover {
+  background-color: #424649;
+  transition: 0.5s;
 }
-@media screen and (max-width: 576px) {
-  #our .textbox h1 {
-    font-size: 80px;
+#our .box ul li .icon i {
+  cursor: pointer;
+}
+@media (max-width: 992px) {
+  #our .box .imgbox {
+    margin-top: 25px;
   }
   #our .textbox p {
-    font-size: 16px;
-  }
-}
-@media screen and (max-width: 768px) {
-  #our .textbox h3 {
-    font-size: 16px;
-  }
-  #our .textbox p {
-    padding: 0;
-  }
-  #our .box ul {
-    margin-bottom: 40px;
-  }
-}
-@media screen and (max-width: 992px) {
-  #our .textbox p {
-    font-size: 18px;
+    padding: 50px 0 0;
   }
 }
 
