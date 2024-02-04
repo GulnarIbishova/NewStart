@@ -418,7 +418,7 @@ header .menu nav a:hover {
   background-color: rgba(192, 192, 192, 0.1254901961);
 }
 #our .textbox {
-  padding: 20px;
+  padding: 10px;
 }
 #our .textbox h1 {
   font-size: 70px;
@@ -427,7 +427,7 @@ header .menu nav a:hover {
   color: #110909;
 }
 #our .textbox h3 {
-  margin: 20px;
+  margin: 10px;
   font-size: 20px;
   color: #110909;
 }
@@ -441,7 +441,7 @@ header .menu nav a:hover {
 }
 #our .box {
   text-align: center;
-  margin: 25px;
+  margin: 15px;
 }
 #our .box .imgbox {
   width: 220px;
